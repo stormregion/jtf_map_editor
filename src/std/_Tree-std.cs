@@ -1,0 +1,56 @@
+using Microsoft.VisualC;
+using System;
+using System.Runtime.CompilerServices;
+using System.Runtime.InteropServices;
+
+namespace std
+{
+	[DebugInfoInPDB, MiscellaneousBits(64), NativeCppClass]
+	[StructLayout(LayoutKind.Sequential, Size = 12)]
+	internal struct _Tree<std::_Tmap_traits<unsigned long,Mvsn::DeadLetterBox::MVSN_DEAD_DROP_STRUCT *,std::less<unsigned long>,std::allocator<std::pair<unsigned long const ,Mvsn::DeadLetterBox::MVSN_DEAD_DROP_STRUCT *> >,0> >
+	{
+		[DebugInfoInPDB, MiscellaneousBits(64), CLSCompliant(false), NativeCppClass]
+		[StructLayout(LayoutKind.Sequential, Size = 8)]
+		public struct const_iterator
+		{
+		}
+
+		[DebugInfoInPDB, MiscellaneousBits(64), CLSCompliant(false), NativeCppClass]
+		[StructLayout(LayoutKind.Sequential, Size = 8)]
+		public struct iterator
+		{
+		}
+	}
+	[DebugInfoInPDB, MiscellaneousBits(64), NativeCppClass]
+	[StructLayout(LayoutKind.Sequential, Size = 12)]
+	internal struct _Tree<std::_Tmap_traits<unsigned long,unsigned long,std::less<unsigned long>,std::allocator<std::pair<unsigned long const ,unsigned long> >,0> >
+	{
+		[DebugInfoInPDB, MiscellaneousBits(64), CLSCompliant(false), NativeCppClass]
+		[StructLayout(LayoutKind.Sequential, Size = 8)]
+		public struct const_iterator
+		{
+		}
+
+		[DebugInfoInPDB, MiscellaneousBits(64), CLSCompliant(false), NativeCppClass]
+		[StructLayout(LayoutKind.Sequential, Size = 8)]
+		public struct iterator
+		{
+		}
+	}
+	[DebugInfoInPDB, MiscellaneousBits(64), NativeCppClass]
+	[StructLayout(LayoutKind.Sequential, Size = 12)]
+	internal struct _Tree<std::_Tset_traits<unsigned long,std::less<unsigned long>,std::allocator<unsigned long>,0> >
+	{
+		[DebugInfoInPDB, MiscellaneousBits(64), CLSCompliant(false), NativeCppClass]
+		[StructLayout(LayoutKind.Sequential, Size = 8)]
+		public struct const_iterator
+		{
+		}
+
+		[DebugInfoInPDB, MiscellaneousBits(64), CLSCompliant(false), NativeCppClass]
+		[StructLayout(LayoutKind.Sequential, Size = 8)]
+		public struct iterator
+		{
+		}
+	}
+}

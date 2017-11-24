@@ -1,0 +1,608 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System" name="System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="labRecentLocation.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="panTab.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="trkWidth.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="$this.SnapToGrid" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="listRecent.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="imgFileTypeSmallIcons.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="cmbRecentFileName.Locked" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="labBrowseFileType.Locked" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="labBrowseLocation.Locked" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="tbInnerSize.Locked" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="tabNew.GridSize" type="System.Drawing.Size, System.Drawing">
+    <value>4, 4</value>
+  </data>
+  <data name="panRecent.DrawGrid" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="colOpenFileDate.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="$this.TrayLargeIcon" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="panRecentPreViewport.GridSize" type="System.Drawing.Size, System.Drawing">
+    <value>4, 4</value>
+  </data>
+  <data name="cmbBrowseFileType.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAIAEBAAAAEAGABoAwAAJgAAACAgAAABABgAqAwAAI4DAAAoAAAAEAAAACAAAAABABgAAAAAAEAD
+        AAAAAAAAAAAAAAAAAAAAAAAAOVBfPFFeTFNVaFNJi1M9llM5llM5jlk2fmUvV28dKYkMG68IELsBEL4B
+        EL0CD78BOFBbOE9fOE9gOU9fQE5WWE5HglU+lVM5klY4hWAygmEwPYgQFK4BErgDEL0BEL8BOFFYOE9f
+        N05eMENUN05dNk1WOE5aQU5Wbk88kFM6jVo1gmw4iIZQabdTEL4BFrgFLD9MOlBiO1RkKTlJMEJVNEhY
+        N05bNk1dKjpLMUJRaU43qZ5wnrSCgL+HUMAsDckELT5NOFBiPFVfLT5MNEhcSmqBSWZ7KjpKM0tgO197
+        bpCHtNWnqeHMltG2pM+Rfr9fMERVO1JmQl9wOlRtQFZrU3iXPl51PFlrRWmGYpWdhMK1iuDSh+Dfe+Xy
+        gdrnhcaxMUxeOk9lU2+IRmJ/U3GLWXuaSGuLTHGSW52qZ9HVVtDoTNn2ceP7geb9WNb3QM7tMUpbRl1z
+        WniRUXCOaYijbImiYX+YVpOtb8rfZNjwR9n5L9X9ZuH9hOv+NNf8JtD6WXCEfY+heZKnj6SzkKS3h6Cx
+        cp22iLzLitLjZtbxRtf7KdT9HtL9INT9GtH9N9X5iJqonKiwtL7DucXLv8nOma29sKSlyKajhsHRYtDo
+        VNf1Utn5RNn9MNT9N9T6WNLwsq6urL3F0tfXtMTLvcfPr4iHvX53kq+4fMHPc8/gfNDjds/ladfzTdf5
+        X87rpLa/tX11tpONwKunupyXu3JruHBonI6Mi6iujbG6rqKjnaqzubS4iczcXtLwhbzNwaChuWRct2tj
+        s2tjumleuHdxrJqbmJ+no4OEuHt2pY2PoKauv56enLS8b8bboqWsuaGhsoGEwaOqwKCnuYyPtoeKppqi
+        pZKWp4iGrp+gl7G9kbLApre/rs3WkNLlp8rUqbi8toGEvoyOvYyPu4qOvYOEuGdiuGhjuWpkt2lio3Z2
+        rnh1sHRwroB/kZegq42NsomIuGRhtWJetWNgs2VjtV5aumReuGlkuGljuGljuGljt2ljuGdht2hit2lj
+        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
+        a4tlj6xwmLKMq7qTuLqht7m8yc+t0teb1+SO3u2Q6/mb+f+s/f+0//+1//+r//+P//969/9p7f9Z1vNk
+        yeUMPF8wTW1vhZoxRlszUXVmiKcfOVQqUoI6c6YsSWI5WHJQgqtZg6aaqrmgq7Gwtbq8vb7BwL2ux8Sb
+        ztmU3OeV4vCU8PuU9f6g+/+j/P+X+v969v9b6v9Y2PJYze5jxeFQZ3ouT2xJaHyBgHxBVGh9mK5NX3Jg
+        hKY2YJJabn9YgqiCo7ugo6e4sKq2qqm5sK24sKi+tquwvbyly86c2N+X3umM3u543/B+6fqG7/x+6vpx
+        4fda1fFczOlayeVrudXCxshdb4Jbe5ikqqiqr7WSqsCGqaNTe7dQdpqOp7/CztqvtLW4n568pKO9p5+3
+        p6G1qqOzrKi6u7W2z8eo1dmZ09qA095qyuB11+iA3O593O1s0+pVxeNbwNphutN6s8WKiorW2dqbv82A
+        i47i4+PS1di8y8ymtcTJ0tnZ3+WvtbunlpK7mZW4n5axoZayopquraG0tKq1vLm1xcGtycecxceCvcZw
+        tsh7yth/1eN80uJwyN1eutRitst0rsWNr8GJa2fAwMDAxMWLp7fLyMbh4eG/vbqguMTY2dnQ0NCXjo21
+        k4a5lYy6mYm0mo+yn5OzqqG1t7G2wru2wruuurqhr66RrK1/q7SCvMKMxdGFxNKBv8xxrsB+rb2Kr7ye
+        pq+3cmqkj4yuo6G1s7OzsbDj4+OampqxrKrQsqy9hnu6h365jH+3ioC0jYKyl4mxnJavqqW0ubG0u7ix
+        urKurKKlpJ2aoJuSoaKXsraZu8KZvcKStL2Ppa+TpKmdo6qsoaG7cGm8dWy9d228e3Szjoi4k4++jom9
+        e3O4fHK8fXK3fW+1fnW2h3qxioGzk4myn5azq6Ozs6uxsautq6OnnpemmZGol46jmJOmqKaltLSls7Oh
+        rK2fnJ+jm5ymlZ2rmZq6bWS7cWS8cGW7cGK7dWi9dWu+dmm7cmW8d228b2a3cWq1fHO1eHKyfHa0i4O1
+        m5S2pZ6zqJ+vnpqrmJKpjoyokImkjYmWjYqfmJWopKGtoJ6ompWmj4iokY2ok5GqlpO7X1i5ZF65amaz
+        Z2SxZ1+xY1u+ZFu+amC5hYS5kJHJsLPHtLbHsLG/qabAq6ywkoquko+tlpKnko2XhoCUenWbfneRgYSE
+        ioyHl5eNqa2TsLCXr7Sbpa2knqChmZeoj46sZWOueXSskJa0m6WzmqSqjJekeninbmqpbGusdXS9mZjC
+        p6jBoKOpg3+diomel5irsrS7v8a7v8OwusOjsbiZqLGjr7eqt72yxMm7ztO80de4ztO2yM20xMmot7mz
+        sLCqh4/EqbDMsLjPsrjQsrnOsrrIqq/GpKu/m6W5jY+sen2igoilhYirenqrfXisgoGvkY+okpGulpqy
+        rbCxr7SloKegrbatt7+0w8q9ydG7zdO8ydG7x82svL2YoKikqq6uh467lZ7IpqrNqrLMqLPKqK7EoqrH
+        nqjHoanHm6HDeXqzY1+1bme7b2a6b2q3b2SzamCyZl6wZl6wdG25j5a4nZ+vk46ekJKpnqGzuL61v8ay
+        v8asvMGtrbGtsrmus7iyjZWumaKznaS0n6i2naezmqS0kp+3m6C5l527kpa7XVm6XFS7Yl65Z2K7ZmG3
+        ZV+4Y16zZF6yZVutYlqrX1apYVirYVuXaGWSbGyZjpKjoKejp6mgpamgpKWfoJyzqKa2Xl+1am2yamqv
+        WVqpXmCqdXmoe4OjbXOlVVK1Tkq5Uky6V1W5XVm5Xli3WVa3WFW2WFO1XFazXFiyYFqyZGCvZF2tZVyr
+        ZV2wZFynZmGZZmSfZWCjYlymY1+tZmCxZV24T0u4TUq5UEq3SUW8Ske5S0q6TUq4S0u2SEe7S0q4UU64
+        UVC4UlG3UlC4UEy2UEy2UE20Uk60VU+yWFGxWVCwWVGwXFWzXFOzYlizYlqyZl6zY1uyYFm0ZFq2Zly4
+        Z14AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAA==
+</value>
+  </data>
+  <data name="panPreview.SnapToGrid" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="tabMode.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="tabNew.SnapToGrid" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="tbSize.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="cmbBrowseFileName.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="trkHeight.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="labBrowseLocation.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="panRecent.Locked" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="chkSquare.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="labBrowseFileType.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="splitPreview.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="radRecentDetails.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="$this.Locked" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="panRecent.GridSize" type="System.Drawing.Size, System.Drawing">
+    <value>4, 4</value>
+  </data>
+  <data name="imgFileTypeLargeIcons.Location" type="System.Drawing.Point, System.Drawing">
+    <value>17, 17</value>
+  </data>
+  <data name="$this.DrawGrid" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="panRecent.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="SizeGroup.DrawGrid" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="tabNew.DrawGrid" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="tabRecent.DrawGrid" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="panPreview.GridSize" type="System.Drawing.Size, System.Drawing">
+    <value>4, 4</value>
+  </data>
+  <data name="trkHeight.Locked" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="labRecentLocation.Locked" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="panPreview.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="tabBrowse.Locked" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="radBrowseThumbnails.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="SizeGroup.Locked" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="btnRecentLocationRoot.Locked" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="tabBrowse.GridSize" type="System.Drawing.Size, System.Drawing">
+    <value>4, 4</value>
+  </data>
+  <data name="panBrowse.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="colRecentFileName.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="cmbRecentFileType.Locked" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="radBrowseDetails.Locked" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="panRecentPreViewport.SnapToGrid" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="tabBrowse.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="panRecentPreViewport.DrawGrid" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="panBrowse.GridSize" type="System.Drawing.Size, System.Drawing">
+    <value>4, 4</value>
+  </data>
+  <data name="tabMode.DrawGrid" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="tabRecent.SnapToGrid" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="panTab.DrawGrid" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="panRecent.SnapToGrid" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="splitPreview.Locked" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="cmbBrowseLocation.Locked" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="imgFileTypeLargeIcons.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="cmbRecentLocation.Locked" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="panPreview.Locked" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="panBrowse.SnapToGrid" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labRecentFileType.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="listBrowse.Locked" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="cmbBrowseFileType.Locked" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="cmbBrowseLocation.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="labRecentPreviewUnderConstruction.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="btnOK.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="trkWidth.Locked" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="cmbRecentFileName.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="tabRecent.GridSize" type="System.Drawing.Size, System.Drawing">
+    <value>4, 4</value>
+  </data>
+  <data name="labRecentPreview.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="InheritGroup.GridSize" type="System.Drawing.Size, System.Drawing">
+    <value>4, 4</value>
+  </data>
+  <data name="imgFileTypeSmallIcons.Location" type="System.Drawing.Point, System.Drawing">
+    <value>186, 17</value>
+  </data>
+  <data name="$this.Localizable" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="chkSquare.Locked" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="colOpenFileSize.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="cmbRecentFileType.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="label1.Locked" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="tabMode.GridSize" type="System.Drawing.Size, System.Drawing">
+    <value>4, 4</value>
+  </data>
+  <data name="btnCancel.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="$this.Language" type="System.Globalization.CultureInfo, mscorlib">
+    <value />
+  </data>
+  <data name="btnCancel.Locked" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="colOpenFileName.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="$this.GridSize" type="System.Drawing.Size, System.Drawing">
+    <value>4, 4</value>
+  </data>
+  <data name="listRecent.Locked" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="cmbRecentLocation.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="tabRecent.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="SizeGroup.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="tabNew.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="labBrowseFileName.Locked" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="btnOK.Locked" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="tabNew.Locked" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="tabRecent.Locked" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="tbSize.Locked" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="tabMode.SnapToGrid" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="cmbBrowseFileName.Locked" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="btnBrowseLocationRoot.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="tabBrowse.SnapToGrid" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="InheritGroup.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="$this.TrayHeight" type="System.Int32, mscorlib">
+    <value>51</value>
+  </data>
+  <data name="panTab.GridSize" type="System.Drawing.Size, System.Drawing">
+    <value>4, 4</value>
+  </data>
+  <data name="btnBrowseLocationUp.Locked" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="tabBrowse.DrawGrid" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="panBrowse.Locked" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="radBrowseThumbnails.Locked" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="btnBrowseLocationUp.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="btnRecentLocationUp.Locked" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="labRecentFileName.Locked" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="radRecentThumbnails.Locked" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="SizeGroup.GridSize" type="System.Drawing.Size, System.Drawing">
+    <value>4, 4</value>
+  </data>
+  <data name="label1.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="labRecentPreview.Locked" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="panPreview.DrawGrid" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="SizeGroup.SnapToGrid" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="listBrowse.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="tbInnerSize.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="InheritGroup.SnapToGrid" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="InheritGroup.Locked" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="panTab.SnapToGrid" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labRecentFileType.Locked" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="panRecentPreViewport.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="radRecentDetails.Locked" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="InheritGroup.DrawGrid" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="btnRecentLocationUp.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="radRecentThumbnails.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="labBrowseFileName.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="btnBrowseLocationRoot.Locked" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="tabMode.Locked" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="labRecentFileName.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="panTab.Locked" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="panBrowse.DrawGrid" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labRecentPreviewUnderConstruction.Locked" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="btnRecentLocationRoot.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="panRecentPreViewport.Locked" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="radBrowseDetails.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+</root>

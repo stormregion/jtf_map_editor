@@ -1,0 +1,416 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="$this.SnapToGrid" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <assembly alias="System" name="System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="menuEmitterDirVerticalP.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="TrackPanel.GridSize" type="System.Drawing.Size, System.Drawing">
+    <value>4, 4</value>
+  </data>
+  <data name="splitter2.Locked" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="menuEditUndo.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="menuEmitterMovVerticalM.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="$this.TrayLargeIcon" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="menuEmitterReset.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAIAEBAAAAEAGABoAwAAJgAAACAgAAABABgAqAwAAI4DAAAoAAAAEAAAACAAAAABABgAAAAAAEAD
+        AAAAAAAAAAAAAAAAAAAAAAAAzv//m9TVNWVoJkJGMkFCKyoqLS8vKjMzMDMzMi4uLCsrME1JL0dGMWBo
+        XbvXb9z/uf//lt3dNGFjHz1AKjc3NzY2JTIyKSwsISoqIC4uSUI/MUFBIUBEG118KajdHb3/aPD/menz
+        YbS6MHCJPoiVc2RgQ05PNjQ0KDk5Jk1NYXBnN3aBNHqbCIbYAJrzAHH8oP7/n/n/cuv8YN3zc+j5nq+r
+        Sm1tS2JhXGJiU2tqfbvEJMPuCaPyAKz/AHX+ADjmiOr/hub2XtzzcOv/vfj9weXkvNjXnNjbm9bWjuLo
+        VKGhTr/XC4r0AaT5AWX3ADXNK7//PJqiHWyJWOL/juL3jtPCidjjRHZ9gN7jiPL/DoPuDK3qCJfJBIfh
+        BIjvAEq9AXT/AGXABVyqHLnhI4ClLs/wMsv8hdbhVMXcH7jpBHbkAnnfEFd6BkqPBXvlADq8AzTrATPz
+        AGX/NqjOWWFgHJ7NE6P4IIKcB1Z1EFqCH2KADrv5Qq7LFGCbCIboADTFAVf4AT35AIb4BoziGJjJC6Tc
+        D5fUKLDlAEKAAUeHVam1SMv/Mrz/Cor3HYbxADfJACv2ACboACd6ACRpADiPAHS+BYXaFbvzF5/jA6/v
+        V83/UbXrAGTcC5P5BH34ACbMADz7ADLTAAxUABJNACNcADRnCH7dXtT+YMjtGZPkJ7b6PIiuAEB/BDKY
+        ATbiAAy8AC75AGjyACPSADu8ADa6AC2DAGbpApv/BG/VDEtsCYPaDF6jACBJABlJADDBABPPAEj8AF//
+        ACT5AEPcAB+FAD7rAHv/AGD8DKT/VLTxDJP2HW2pAxo2ABI/AAytABfLAF73ADvEABzfACPSABqOADfx
+        AFP2ACyKCVGGY67sJqL/LZf/D0J8AAxDAA+gABzAAD/oACaKABSQACLnACjsAC7zAED5ADrDAiFNCUGO
+        GJD/Upj/CWD5ABvUABLIABymADPkAELeABfeABHVABLLABXXACLxAEz7AC3aAC3OAD//BU//Ai/3ACPl
+        ABnDACCwAAD//wAA//8AAP//AAD//wAA//8AAP//AAD//wAA//8AAP//AAD//wAA//8AAP//AAD//wAA
+        //8AAP//AAD//ygAAAAgAAAAQAAAAAEAGAAAAAAAgAwAAAAAAAAAAAAAAAAAAAAAAADB///B//+//f9r
+        rK9EkJZFfIMrREgtWl88UFAzOTkxMzMxMzMyNDQxNDQsMzMlNDQvMzMzNDQyMzMxMjIxMzMuMjIpOTkl
+        U1M4T08qUV0vbHlAg5A/osROwu9b3P9k4v+r//+d/v+z/f9aqKs0dHk+YGIvR0keQkk1QkM0ODguMjIn
+        MjIfMjIqNDQtMzMrNTUuNDQwNDQtNDQgMjIpMjI2PDw5UVEjWVkyTE0cQEocTV03f5RLnrxZt+ZSzf9I
+        1P+h//+i//+h//99vsA9g4Y4YmQvUlUZPkQxQEA8QUE7Pz8vPj4iOzsoNzcvNDQuMzMiMjIlMjIiMjMg
+        OTo6RERETU02UFIZREorREgdSlgXXH0dfrEomsknpekcr/8Wrf+P+P+u//+A9f+e3NxQp6s8foUvaHId
+        Tlo2VVdMWVlRV1dGVFQ4TU02Q0M0ODgxNDQeMzMbNDQeODopR0pSX19RYWEwUFUVPU8wT1giZIERdrQI
+        fc0GkN8DlfQAkP8Ahv+M8v+U9/9owv+j5ORYt8dElrE5gqQpZ44xgZBgh4pnb29ha2taZmZQV1c+QEA5
+        OzstOzsqQkIkUFAnX19UbGxYeHg9eIIdcItFgZUbcq8FbsgAdswAhOkAi/sAff8Abv+V9P+Z+f+E7P+y
+        +Ph86vBXzt5Nrslbs89GydyTyM2FlpZXdHQ6ZGRGW1tJT09HTEwvVFQyYmQzb3Qta25Pbm4/gaAsm9kZ
+        irwdkdUJeuoBkvIAqfMAjfoAf/8AUvAAOdGe9/+W+/+T9v+b9v9g6f9e3fhm0+xy3PVL2P+f6/W30tJj
+        hYVFfX1Mfn5Vbm5baWlTbm5XcXNUdnhMfn9wm5s/odYdsv8SqtUHie0Bm/8AoP8Am/8Abv8AVfgAN+sA
+        KtV98P988f+D7P9u6/9My/9k3f996/9V2f9b1v+y8v/c//94qKh/qKhzsrJfoKFlmJmClZV2jIxqiIh3
+        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
+        AAAAAAAAAAAAAA==
+</value>
+  </data>
+  <data name="menuEmitterMovHorizontal.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="menuItem12.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="menuItem1.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="menuWindMedium.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="menuFileOpenRecent.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="menuEditRedo.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="TrackPanel.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="menuEmitterVel1.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="menuFileSave.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="$this.Locked" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="$this.DrawGrid" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="menuWindOff.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="menuItem8.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="menuViewDebugMode.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="panRight.GridSize" type="System.Drawing.Size, System.Drawing">
+    <value>4, 4</value>
+  </data>
+  <data name="menuWindHeavy.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="menuItem4.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="menuViewShowEffectPosDir.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="menuEffectEditor.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="panEffectViewport.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="menuFileNew.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="menuEmitterDirRotate.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="panRight.DrawGrid" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="panEffectViewport.DrawGrid" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="TrackPanel.DrawGrid" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="menuEmitterDirHorizontal.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="panRight.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="menuWindLight.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="$this.Localizable" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="splitter1.Locked" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="$this.Language" type="System.Globalization.CultureInfo, mscorlib">
+    <value />
+  </data>
+  <data name="panel1.SnapToGrid" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="panel1.GridSize" type="System.Drawing.Size, System.Drawing">
+    <value>4, 4</value>
+  </data>
+  <data name="$this.GridSize" type="System.Drawing.Size, System.Drawing">
+    <value>4, 4</value>
+  </data>
+  <data name="splitter1.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="menuEmitterMovRotate.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="TrackPanel.SnapToGrid" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="panel1.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="menuEdit.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="menuEffectEditor.Location" type="System.Drawing.Point, System.Drawing">
+    <value>17, 17</value>
+  </data>
+  <data name="panEffectViewport.SnapToGrid" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="menuFileSaveAs.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="$this.TrayHeight" type="System.Int32, mscorlib">
+    <value>80</value>
+  </data>
+  <data name="menuFileOpen.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="menuFile.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="menuItem2.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="menuEmitterVel0.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="panEffectViewport.GridSize" type="System.Drawing.Size, System.Drawing">
+    <value>4, 4</value>
+  </data>
+  <data name="menuItem5.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="menuItem3.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="menuEmitterVel2.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="panEffectViewport.Locked" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="panel1.Locked" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="menuEmitterVel3.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="menuEmitterMovVerticalP.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="menuFileClose.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="panel1.DrawGrid" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="menuFileSeparator2.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="panRight.SnapToGrid" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="menuEmitter.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="menuEmitterDirVerticalM.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="menuFileSeparator1.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="panRight.Locked" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="splitter2.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="TrackPanel.Locked" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+</root>
